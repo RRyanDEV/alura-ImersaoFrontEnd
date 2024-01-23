@@ -27,6 +27,11 @@
 
 </a>
 
+### v0.0.2.20230123
+
+- Desafio: Fazer um footer para o projeto. ✅
+- Segunda aula, fazendo a sidebar do projeto.
+
 ### v0.0.1.20230122
 
 - Primeira Aula, fazendo a sidebar do projeto.
