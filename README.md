@@ -17,7 +17,7 @@
 
 <br>
 
- || [Notas de versão](#section-changelog) || [Autores](#section-autores) ||
+|| [Notas de versão](#section-changelog) || [Autores](#section-autores) ||
 
 </div>
 
@@ -26,6 +26,12 @@
 ## Notas de versão
 
 </a>
+
+### v0.0.3.20230126
+
+- Estruturar melhor o projeto.
+- Refatoração de código.
+- Terceira aula, criando o menu superior do projeto.
 
 ### v0.0.2.20230123
 

@@ -10,7 +10,9 @@
             href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" />
         <link rel="icon" href="./src/assets/icons/favicon.png">
         <link rel="stylesheet" href="./src/styles/reset.css">
-        <link rel="stylesheet" href="./src/styles/style.css">
+        <link rel="stylesheet" href="./src/styles/vars.css">
+        <link rel="stylesheet" href="./src/styles/main-content.css">
+        <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     </head>
     <body>
         <div class="sidebar">
@@ -37,7 +39,6 @@
                 </ul>
             </nav>
 
-
             <div class="library">
                 <div class="library__content">
                     <button class="library__button">
@@ -49,8 +50,10 @@
 
                 <section class="section-playlist">
                     <div class="section-playlist__content">
-                        <span class="text title">Crie sua primeira playlist</span>
-                        <span class="text subtitle">É facil, vamos te ajudar</span>
+                        <span class="text title">Crie sua primeira
+                            playlist</span>
+                        <span class="text subtitle">É facil, vamos te
+                            ajudar</span>
                         <button class="section-playlist__button">
                             <span>Criar Playlist</span>
                         </button>
@@ -67,19 +70,47 @@
                 </div>
             </div>
         </div>
-    </body>
 
-    <footer>
-        <div class="footer">
-            <div class="footer__content">
-                <div class="footer__content__texts">
-                    <span class="text title">TESTE O SPOTIFY PREMIUM, DE GRAÇA!!!</span>
-                    <span class="text subtitle">Inscreva-se para curtir músicas ilimitadas e podcasts com alguns anúncios. Não precisa de cartão de crédito. </span>
-                </div>
-                <button class="footer__button">
-                    <span>Inscreva-se Grátis</span>
-                </button>
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow_left">
+                            <img src="./src/assets/icons/small-left.png" alt="setaEsquerda">
+                        </button>
+                        <button class="arrow_right">
+                            <img src="./src/assets/icons/small-right.png" alt="setaDireitra">
+                        </button>
+                        <div class="header__search">
+                            <img src="./src/assets/icons/search.png" alt="">
+                            <input type="text" name="" id="search-input" placeholder="O que você quer ouvir?">
+                        </div>
+                    </div>
+                        <div class="header-login">
+                            <button class="subscribe">Inscreva-se</button>
+                            <button class="login">Entrar</button>
+                        </div>
+                </nav>
             </div>
-        </div>
-    </footer>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="footer__content">
+                    <div class="footer__content__texts">
+                        <span class="text title">TESTE O SPOTIFY PREMIUM, DE
+                            GRAÇA!!!</span>
+                        <span class="text subtitle">Inscreva-se para curtir
+                            músicas
+                            ilimitadas e podcasts com alguns anúncios. Não
+                            precisa
+                            de cartão de crédito. </span>
+                    </div>
+                    <button class="footer__button">
+                        <span>Inscreva-se Grátis</span>
+                    </button>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
